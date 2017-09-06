@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Lincerely">
+		<meta name="description" content="找出任何香港電話號碼的供應商和類型 | Retreive carrier information and type of
+Any Hong Kong Phone Number">
+		<meta property="og:description" content="找出任何香港電話號碼的供應商和類型 | Retreive carrier information and type of
+Any Hong Kong Phone Number">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<title>HK Phone Searcher</title>
+		<style>
+			body{
+				font-family: 'Fira Sans', sans-serif;
+				background: RGB(56, 202, 139);
+				color: #246346;
+				font-size: 150%;
+			}
+
+			textarea, input, button { outline: none; }
+
+			.noappearance {
+				background:	inherit;
+				border:none;
+				padding:0;
+			}
+
+			body > #header {
+				padding-top: 3vh;
+				padding-bottom: 3vh;
+				margin: auto;
+				width:100%;
+			}
+
+			#header h1 {
+				text-align: center;
+				margin-bottom: 0;
+				color: #143C2A;
+			}
+
+			#header p {
+				text-align: center;
+			}
+
+
+			#input-box {
+				display: none;
+				margin: auto;
+				width: 30%;
+				min-width: 400px;
+			}
+
+			#input-box form {
+				border-radius: 2px;
+				font-size: 1.5em;
+				background: #3BB57F;
+			}
+
+			#input-box p {
+				margin-top: 0px;
+			}
+
+
+			#input-box input {
+				line-height: 2em;
+				font-size: inherit;
+				padding-left:10px;
+				color: #143C2A;
+			}
+			#input-box button {
+				line-height: 2em;
+				font-size: inherit;
+				float: right;
+				width: 2em;
+				color: #246346;
+				background: none;
+			}
+
+			#input-box button:hover{
+				color: #143C2A;
+			}
+
+			#result{
+				font-size: .5em;
+				padding: 10px;
+				border-top: 2px solid RGB(56, 202, 139);
+			}
+
+			b{
+				color: #143C2A;
+			}
+
+			a{
+				color: #143C2A;
+				text-decoration: none;
+				padding:5px;
+			}
+
+			a:hover{
+				color: black;
+			}
+
+			@media only screen and (max-width: 480px){
+				#input-box {
+					width: 90%;
+				}
+			}
+
+
+		</style>
+	</head>
+	<body>
+	<a href="https://github.com/lincerely/hk-phone-number-searcher" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#3BB57F; color:#151513; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+		<div id="header">
+			<h1></h1>
+			<p><span id="subTitle"></span>
+			</p>
+				<p><small>
+					[ <a id="detail" href="https://lincerely.github.io"></a> ]
+					[ <a id="changeLang" href="?lang=en"></a> ]
+				</small></p>
+		</div>
+
+
+		<div id="input-box">
+			<form action="#">
+				<button type="submit" class="material-icons noappearance">search</button>
+				<div style="overflow: hidden;">
+					<input class="noappearance" name="input_num" maxlength="16" />
+				</div>
+				<div id="result">
+				</div>
+			</form>
+			<p><small id="error-msg"></small></p>
+
+		</div>
+
+		<script>
+            var phonebook = null;
+
+
+            var titleText =  "HK Phone Searcher";
+			var subTitleText = "找出任何香港電話號碼的供應商和類型";
+
+            var errorText = "請輸入有效的電話號碼";
+            var noResultText = "找不到相關資料";
+			var noDataText = "揾唔到資料呀...<br>召喚IT狗啦";
+
+			var changeLangText = "English pls";
+			var detailText = "詳細";
+
+			var typeText = "主類別";
+			var subTypeText = "次類別";
+			var companyText = "公司／團體";
+			var remarkText = "備註";
+			var specialText = "特別號碼";
+
+			var srcText ="詳細說明...";
+
+            var searchParams = new URLSearchParams(window.location.search);
+
+            var input = searchParams.get("input") || null;
+			var lang = searchParams.get("lang") || "zh";
+			console.log("lang = " + lang);
+			if(lang == "en"){
+
+                titleText = "HK Phone Searcher";
+                subTitleText = "Retreive carrier information and type of<br> Any Hong Kong Phone Number";
+
+                errorText = "Please enter a valid phone number.";
+                noResultText = "No result found.";
+				noDataText = "Sorry, I can't get any data from the server.<br>Please contact the IT guy to fix this :/";
+
+				detailText = "Detail";
+                changeLangText = "中文呀";
+
+                typeText = "Category";
+                subTypeText = "Sub-category";
+                companyText = "Allocated / Assigned to (Company / Entity)";
+                remarkText = "Remarks";
+				specialText = "Special Number?";
+
+				srcText = "More Detail...";
+			}
+
+
+
+            $(document).ready(function() {
+                $('h1').text(titleText);
+                $('#subTitle').html(subTitleText+"<br>");
+                $('#detail').text(detailText);
+                $('#changeLang').text(changeLangText);
+
+                $("#error-msg").hide();
+                $("#result").hide();
+
+                if(lang === "en")
+                    $('#changeLang').attr("href","?lang=zh");
+
+                setTimeout(function(){$("#input-box").fadeIn()},500);
+
+
+                $.getJSON("data/phonebook.json", function (data) {
+                    phonebook = data;
+					console.log("Json loaded.");
+                    console.log(phonebook);
+
+                    //support 'GET' uri inputs
+                    if(input !== null ){
+                        $("input").val(input);
+                        check(input);
+                    }
+
+                }).fail(function () {
+					console.log("Fail loading json.");
+					$('form input').prop('disabled', true);
+					$("#error-msg").html(noDataText);
+                    $("#error-msg").fadeIn();
+                })
+
+                $('form').on('submit', function(e){
+                    $('#result').hide();
+                    input= $("input").val();
+					check(input);
+                    e.preventDefault();
+                });
+
+
+            });
+
+            function check(input) {
+                input = input.replace('-','');
+                if(isNaN(input) || input==''){
+                   	//invalidate input
+					$("#error-msg").html(errorText).fadeIn();
+				}else{
+                    $("#error-msg").hide();
+                    getResult(input);
+				}
+            }
+
+            function getResult(input){
+                var result = noResultText;
+                //go through each row in phone book
+				$.each(phonebook,function (index, row) {
+
+				    var isEqual = false;
+					if(row.length === null || row.length==="Variable"){
+					    isEqual = true;
+					}else if(isNaN(row.length)){
+
+					    if(row.length.includes('-')){
+					        //length value is a range
+							var range = row.length.split('-');
+							isEqual = (input.length >= parseInt(range[0]) && input.length <= parseInt(range[1]));
+						}else {
+					        //length value includes a expression
+                            isEqual = eval(String(input.length) + row.length);
+                        }
+
+					}else {
+                        isEqual = row.length === input.length;
+					}
+
+					if(isEqual){
+					    if(row.start <= input.substring(0,String(row.start).length) && row.end >= input.substring(0,row.end.length)){
+							result=""
+					        result += "<p>"+typeText+"<br><b>"+ row.type +"</b></p>";
+							if (row.subtype !== null)
+                                if(row.subtype.includes('**'))
+                                    	result += "<p>"+subTypeText+"<br><b><i>"+ row.subtype +"</i></b></p>";
+                                    else
+                                        result += "<p>"+subTypeText+"<br><b>"+ row.subtype +"</b></p>";
+
+							if	(row.company !== null)
+							    if(row.company.includes('**'))
+                            		result += "<p>"+companyText+"<br><b><i>"+ row.company +"</i></b></p>";
+								else
+                                    result += "<p>"+companyText+"<br><b>"+ row.company +"</b></p>";
+
+							if (row['special#'] !== null)
+                                result += "<p>"+specialText+"<br><b class='material-icons'>done</b></p>";
+							else
+                                result += "<p>"+specialText+"<br><b class='material-icons'>clear</b></p>";
+
+							if (row.remark!==null)
+                                result += "<p>"+remarkText+"<br><b>"+row.remark+"</b></p>";
+
+							result+="<a style='padding-left: 0px' href='http://www.ofca.gov.hk/filemanager/ofca/tc/content_311/no_plan.pdf' alt='Numbering Plan PDF'><small>"+srcText+"</small></a>";
+
+                            console.log(row);
+                            return false;
+
+						}
+					}
+                });
+                $('#result').html(result).slideDown();
+
+			}
+		</script>
+
+	</body>
+</html>
