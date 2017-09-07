@@ -10,6 +10,7 @@ Any Hong Kong Phone Number">
 Any Hong Kong Phone Number">
 
     <meta name="google" content="notranslate"/>
+    <meta name="theme-color" content="#246346">
 
     <!-- import fira sans from google font -->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
@@ -23,148 +24,7 @@ Any Hong Kong Phone Number">
 
     <title>HK Phone Searcher</title>
 
-    <style>
-        body {
-            font-family: 'Fira Sans', sans-serif;
-            background: RGB(56, 202, 139);
-            color: #246346;
-            font-size: 150%;
-        }
-
-        textarea, input, button {
-            outline: none;
-        }
-
-        .noappearance {
-            background: inherit;
-            border: none;
-            padding: 0;
-        }
-
-        body > #header {
-            padding-top: 3vh;
-            padding-bottom: 3vh;
-            margin: auto;
-            width: 100%;
-        }
-
-        #header h1 {
-            text-align: center;
-            margin-bottom: 0;
-            color: #143C2A;
-        }
-
-        #header p {
-            text-align: center;
-        }
-
-        #input-box {
-            display: none;
-            margin: auto;
-            width: 30%;
-            min-width: 500px;
-        }
-
-        #input-box form {
-            border-radius: 2px;
-            font-size: 1.5em;
-            background: #3BB57F;
-        }
-
-        #input-box p {
-            margin-top: 0px;
-        }
-
-        #input-box input {
-            line-height: 2em;
-            font-size: inherit;
-            padding-left: 10px;
-            color: #143C2A;
-        }
-
-        #input-box button {
-            line-height: 2em;
-            font-size: inherit;
-            float: right;
-            width: 2em;
-            color: #246346;
-            background: none;
-        }
-
-        #input-box button:hover {
-            color: #143C2A;
-        }
-
-        #result {
-            font-size: .5em;
-            padding: 10px;
-            border-top: 2px solid RGB(56, 202, 139);
-        }
-
-        b {
-            color: #143C2A;
-        }
-
-        a {
-            color: #143C2A;
-            text-decoration: none;
-            padding: 5px;
-        }
-
-        a:hover {
-            color: black;
-        }
-
-        @media only screen and (max-width: 500px) {
-
-            h1{
-                margin-top: 0;
-            }
-
-            body > #header{
-                padding-top: 0;
-            }
-
-            #input-box {
-                min-width: 0px;
-                width: 99%;
-            }
-
-            body{
-                font-size: 125%;
-            }
-
-        }
-
-        /* FOR GITHUB CORNER */
-        .github-corner:hover .octo-arm {
-            animation: octocat-wave 560ms ease-in-out
-        }
-
-        @keyframes octocat-wave {
-            0%, 100% {
-                transform: rotate(0)
-            }
-            20%, 60% {
-                transform: rotate(-25deg)
-            }
-            40%, 80% {
-                transform: rotate(10deg)
-            }
-        }
-
-        @media (max-width: 500px) {
-            .github-corner:hover .octo-arm {
-                animation: none
-            }
-
-            .github-corner .octo-arm {
-                animation: octocat-wave 560ms ease-in-out
-            }
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -199,7 +59,7 @@ Any Hong Kong Phone Number">
     <form action="#">
         <button type="submit" class="material-icons noappearance">search</button>
         <div style="overflow: hidden;">
-            <input class="noappearance" name="input_num" maxlength="16" autocomplete="off"/>
+            <input class="noappearance" name="input" type="tel" maxlength="16" autocomplete="off"/>
         </div>
         <div id="result">
         </div>
@@ -211,9 +71,9 @@ Any Hong Kong Phone Number">
 
 <!-- Main Script -->
 <script>
-    var phonebook = null;
+    var phonebook = null;   //which stores the json data
 
-
+    //-- All displayed text in html --
     var titleText = "HK Phone Searcher";
     var subTitleText = "找出任何香港電話號碼的供應商和類型";
 
@@ -232,13 +92,16 @@ Any Hong Kong Phone Number">
 
     var srcText = "詳細說明...";
 
+    //Look for GET parameter: input and lang
     var searchParams = new URLSearchParams(window.location.search);
 
     var input = searchParams.get("input") || null;
     var lang = searchParams.get("lang") || "zh";
     console.log("lang = " + lang);
-    if (lang == "en") {
 
+    if (lang === "en") {
+
+        //-- Eng Alternative --
         titleText = "HK Phone Searcher";
         subTitleText = "Retreive carrier information and type of<br> Any Hong Kong Phone Number";
 
@@ -258,15 +121,25 @@ Any Hong Kong Phone Number">
         srcText = "More Detail...";
     }
 
+    var inputfield = null;
+    var form = null;
+    var resultfield = null;
+    var errorfield = null;
 
     $(document).ready(function () {
+
+        inputfield = $("input[name='input']");
+        form = $('form');
+        resultfield = $('#result');
+        errorfield = $('error-msg');
+
         $('h1').text(titleText);
         $('#subTitle').html(subTitleText + "<br>");
         $('#detail').text(detailText);
         $('#changeLang').text(changeLangText);
 
-        $("#error-msg").hide();
-        $("#result").hide();
+        errorfield.hide();
+        resultfield.hide();
 
         if (lang === "en")
             $('#changeLang').attr("href", "?lang=zh");
@@ -289,28 +162,35 @@ Any Hong Kong Phone Number">
 
         }).fail(function () {
             console.log("Fail loading json.");
-            $('form input').prop('disabled', true);
-            $("#error-msg").html(noDataText);
-            $("#error-msg").fadeIn();
+            inputfield.prop('disabled', true);
+            errorfield.html(noDataText);
+            errorfield.fadeIn();
         })
 
-        $('form').on('submit', function (e) {
-            $('#result').hide();
-            input = $("input").val();
+        form.on('submit', function (e) {
+            resultfield.hide();
+            input = inputfield.val();
+            document.activeElement.blur();
             check(input);
             e.preventDefault();
         });
+
+//        form.focus(function (e) {
+//            $('html, body').animate({
+//                scrollTop: $(this).offset().top
+//            }, 2000);
+//        });
 
 
     });
 
     function check(input) {
         input = input.replace('-', '');
-        if (isNaN(input) || input == '') {
+        if (isNaN(input) || input === '') {
             //invalidate input
-            $("#error-msg").html(errorText).fadeIn();
+            errorfield.html(errorText).fadeIn();
         } else {
-            $("#error-msg").hide();
+            errorfield.hide();
             getResult(input);
         }
     }
@@ -370,7 +250,13 @@ Any Hong Kong Phone Number">
                 }
             }
         });
-        $('#result').html(result).slideDown();
+        resultfield.html(result).slideDown();
+
+        //scroll to result automatically
+        // ref from: https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
+        $('html, body').animate({
+            scrollTop: resultfield.offset().top
+        }, 2000);
 
     }
 </script>

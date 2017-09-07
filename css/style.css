@@ -1,0 +1,156 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background: RGB(56, 202, 139);
+    color: #246346;
+    font-size: 150%;
+}
+
+textarea, input, button {
+    outline: none;
+}
+
+b {
+    color: #143C2A;
+}
+
+a {
+    color: #143C2A;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    color: black;
+}
+
+/*button:focus{*/
+    /*outline: none;*/
+    /*color: #143C2A;*/
+/*}*/
+
+a:focus {
+    outline: none;
+    color: black;
+
+}
+
+.noappearance {
+    background: inherit;
+    border: none;
+    padding: 0;
+}
+
+body > #header {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin: auto;
+    width: 100%;
+}
+
+#header h1 {
+    text-align: center;
+    margin-bottom: 0;
+    color: #143C2A;
+}
+
+#header p {
+    text-align: center;
+}
+
+#input-box {
+    display: none;
+    margin: auto;
+    width: 30%;
+    min-width: 500px;
+}
+
+#input-box form {
+    border-radius: 2px;
+    font-size: 1.5em;
+    background: #3BB57F;
+}
+
+#input-box p {
+    margin-top: 0px;
+}
+
+#input-box input {
+    line-height: 2em;
+    font-size: inherit;
+    padding-left: 10px;
+    color: #143C2A;
+}
+
+#input-box button {
+    line-height: 2em;
+    font-size: inherit;
+    float: right;
+    width: 2em;
+    color: #246346;
+    background: none;
+}
+
+#input-box button:hover {
+    color: #143C2A;
+}
+
+#result {
+    font-size: .5em;
+    padding: 10px;
+    border-top: 2px solid RGB(56, 202, 139);
+}
+
+
+/* Mobile or small screen */
+@media only screen and (max-width: 500px) {
+
+    h1{
+        margin-top: 0;
+    }
+
+    body{
+        font-size: 125%;
+    }
+
+    body > #header{
+        padding-top: 0;
+        font-size: 90%;
+    }
+
+    #input-box {
+        min-width: 0px;
+        width: 99%;
+    }
+}
+
+/* FOR GITHUB CORNER */
+.github-corner{
+    z-index: -3;
+}
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+    0%, 100% {
+        transform: rotate(0)
+    }
+    20%, 60% {
+        transform: rotate(-25deg)
+    }
+    40%, 80% {
+        transform: rotate(10deg)
+    }
+}
+
+@media (max-width: 500px) {
+    .github-corner:hover .octo-arm {
+        animation: none
+    }
+
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+    }
+}
+
