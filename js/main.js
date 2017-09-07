@@ -1,8 +1,8 @@
 var phonebook = null;   //which stores the json data
 
 //-- All displayed text in html --
-var titleText = "HK Phone Searcher";
-var subTitleText = "找出任何香港電話號碼的供應商和類型";
+var titleText = "香港電話號碼查詢";
+var subTitleText = "查詢任何香港電話號碼的供應商和類型";
 
 var errorText = "請輸入有效的電話號碼";
 var noResultText = "找不到相關資料";
