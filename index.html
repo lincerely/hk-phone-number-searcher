@@ -18,13 +18,21 @@ Any Hong Kong Phone Number">
     <!-- import google material icon font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/ripple.min.css">
+
+
     <!-- import jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
+    <!-- Import ripple.js -->
+    <script type="text/javascript" src="js/ripple.min.js"></script>
+
     <title>HK Phone Searcher</title>
 
-    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
@@ -55,10 +63,10 @@ Any Hong Kong Phone Number">
 </header>
 
 <!-- Input and Result -->
-<section id="input-box">
-    <form action="#">
-        <button type="submit" class="material-icons noappearance">search</button>
-        <div style="overflow: hidden;">
+<section id="input-box" >
+    <form action="# ">
+        <button type="submit" class="ripple-this material-icons noappearance">search</button>
+        <div  style="overflow: hidden;" class="ripple-this">
             <input class="noappearance" name="input" type="tel" maxlength="16" autocomplete="off"/>
         </div>
         <div id="result">
@@ -170,16 +178,16 @@ Any Hong Kong Phone Number">
         form.on('submit', function (e) {
             resultfield.hide();
             input = inputfield.val();
-            document.activeElement.blur();
+            //resultfield.focus();
             check(input);
             e.preventDefault();
         });
 
-//        form.focus(function (e) {
-//            $('html, body').animate({
-//                scrollTop: $(this).offset().top
-//            }, 2000);
-//        });
+        $.ripple(".ripple-this",{
+            debug: false,
+            multi: true,
+            opacity: 0.2
+        })
 
 
     });

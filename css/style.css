@@ -23,11 +23,6 @@ a:hover {
     color: black;
 }
 
-/*button:focus{*/
-    /*outline: none;*/
-    /*color: #143C2A;*/
-/*}*/
-
 a:focus {
     outline: none;
     color: black;
@@ -87,7 +82,6 @@ body > #header {
     float: right;
     width: 2em;
     color: #246346;
-    background: none;
 }
 
 #input-box button:hover {
@@ -102,7 +96,7 @@ body > #header {
 
 
 /* Mobile or small screen */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 520px) {
 
     h1{
         margin-top: 0;
