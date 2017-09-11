@@ -6,7 +6,7 @@ var subTitleText = "查詢任何香港電話號碼的供應商和類型";
 
 var errorText = "請輸入有效的電話號碼";
 var noResultText = "找不到相關資料";
-var noDataText = "揾唔到資料呀...<br>召喚IT狗啦";
+var noDataText = "揾唔到資料呀...召喚IT狗啦 :/";
 
 var changeLangText = "English pls";
 var detailText = "詳細";
@@ -58,7 +58,7 @@ $(document).ready(function () {
     inputfield = $("input[name='input']");
     form = $('form');
     resultfield = $('#result');
-    errorfield = $('error-msg');
+    errorfield = $('#error-msg');
 
     $('h1').text(titleText);
     $('#subTitle').html(subTitleText + "<br>");
@@ -89,9 +89,12 @@ $(document).ready(function () {
 
     }).fail(function () {
         console.log("Fail loading json.");
-        inputfield.prop('disabled', true);
         errorfield.html(noDataText);
         errorfield.fadeIn();
+        inputfield.prop('disabled', true);
+
+        form.find(".ripple-this").removeClass('ripple-this');
+        form.find("button").prop('disabled', true);
     })
 
     form.on('submit', function (e) {
