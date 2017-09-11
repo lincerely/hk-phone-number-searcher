@@ -77,6 +77,7 @@ body > #header {
 }
 
 #input-box button {
+  border-radius: 3px;
     line-height: 2em;
     font-size: inherit;
     float: right;
@@ -118,8 +119,9 @@ body > #header {
 }
 
 /* FOR GITHUB CORNER */
-.github-corner{
-    z-index: -3;
+.github-corner svg > path:first-child{
+    fill:#3BB57F; /* fallback for ie */
+    fill:rgba(0, 0, 0, .1);
 }
 
 .github-corner:hover .octo-arm {
@@ -147,4 +149,3 @@ body > #header {
         animation: octocat-wave 560ms ease-in-out
     }
 }
-
