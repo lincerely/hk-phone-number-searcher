@@ -149,7 +149,7 @@ function getResult(input) {
         }
 
         if (isEqual) {
-            if (row.start <= input.substring(0, String(row.start).length) && row.end >= input.substring(0, row.end.length)) {
+            if (row.start <= input.substring(0, String(row.start).length) && row.end >= input.substring(0, String(row.end).length)) {
                 result = ""
                 result += "<p>" + typeText + "<br><b>" + row.type + "</b></p>";
                 if (row.subtype !== null)
