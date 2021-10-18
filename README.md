@@ -21,3 +21,5 @@ Get numbering plan from https://www.ofca.gov.hk/filemanager/ofca/common/datagovh
     cd data
     ./getData.sh
 ```    
+
+and update the "Last Update" time in `index.html`

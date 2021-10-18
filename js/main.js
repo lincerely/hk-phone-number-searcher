@@ -3,6 +3,7 @@ var phonebook = null;   //which stores the json data
 //-- All displayed text in html --
 var titleText = "香港電話號碼查詢";
 var subTitleText = "查詢任何香港電話號碼的供應商和類型";
+var lastUpdateText = "最後修訂";
 
 var errorText = "請輸入有效的電話號碼";
 var noResultText = "找不到相關資料";
@@ -31,6 +32,7 @@ if (lang === "en") {
     //-- Eng Alternative --
     titleText = "HK Phone Searcher";
     subTitleText = "Retreive carrier information and type of<br> Any Hong Kong Phone Number";
+    lastUpdateText = "Last Update";
 
     errorText = "Please enter a valid phone number.";
     noResultText = "No result found.";
@@ -61,6 +63,7 @@ $(document).ready(function () {
     errorfield = $('#error-msg');
 
     $('h1').text(titleText);
+    $('#lastUpdate').text(lastUpdateText);
     $('#subTitle').html(subTitleText + "<br>");
     $('#detail').text(detailText);
     $('#changeLang').text(changeLangText);
