@@ -15,14 +15,9 @@ Support English and Traditional Chinese.
 
 ## Prepare Data
 
-Get numbering plan from http://www.ofca.gov.hk/filemanager/ofca/common/datagovhk/no_plan_en_tc.xlsx and parse it into a clean json file.
+Get numbering plan from https://www.ofca.gov.hk/filemanager/ofca/common/datagovhk/tel_no_en_tc.csv and parse it into a clean json file.
 
 ``` bash
     cd data
-    python3 getData.py
+    ./getData.sh
 ```    
-
-You will need these to run above script:
- - Python3
-    - Pandas
-    - xlrd
