@@ -1666,7 +1666,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"BT (Hong Kong) Limited",
+		"company":"BT HONG KONG LIMITED",
 		"remark":null
 	},
 	{
@@ -2406,7 +2406,7 @@
 		"special#":"Y",
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"** On Hold (previously assigned/allocated to ONE.TEL LIMITED)   保留 (之前指配/編配予一電通電話有限公司)",
+		"company":"** Spare - open for Special Number application 備用/特別號碼供申請使用",
 		"remark":null
 	},
 	{
@@ -3716,7 +3716,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"HKC Network Limited 中港網絡有限公司",
+		"company":"** On Hold (previously assigned/allocated to HKC Network Limited)   保留 (之前指配予/編配中港網絡有限公司)",
 		"remark":null
 	},
 	{
@@ -5531,12 +5531,22 @@
 	},
 	{
 		"start":44000000,
+		"end":44099999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
+		"remark":null
+	},
+	{
+		"start":44100000,
 		"end":44399999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -5546,7 +5556,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -5566,7 +5576,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -5576,7 +5586,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -5966,7 +5976,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -6001,6 +6011,16 @@
 	},
 	{
 		"start":46780000,
+		"end":46789999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Sun Mobile Limited 新移動通訊有限公司",
+		"remark":null
+	},
+	{
+		"start":46790000,
 		"end":46799999,
 		"length":8,
 		"special#":null,
@@ -6106,7 +6126,7 @@
 		"special#":null,
 		"type":"Others 其他",
 		"subtype":"Network Number 網絡號碼",
-		"company":"** On Hold (previously assigned/allocated to Hong Kong Telecommunications (HKT) Limited)   保留 (之前指配予/編配Hong Kong Telecommunications (HKT) Limited)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6586,7 +6606,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to Hong Kong Telecommunications (HKT) Limited)   保留 (之前指配予/編配Hong Kong Telecommunications (HKT) Limited)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6606,7 +6626,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to Hong Kong Telecommunications (HKT) Limited)   保留 (之前指配予/編配Hong Kong Telecommunications (HKT) Limited)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6626,7 +6646,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to Hong Kong Telecommunications (HKT) Limited)   保留 (之前指配予/編配Hong Kong Telecommunications (HKT) Limited)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -7656,7 +7676,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
 		"remark":null
 	},
 	{
@@ -8611,6 +8631,16 @@
 	},
 	{
 		"start":62680000,
+		"end":62689999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"remark":null
+	},
+	{
+		"start":62690000,
 		"end":62699999,
 		"length":8,
 		"special#":null,
@@ -9490,6 +9520,16 @@
 		"remark":null
 	},
 	{
+		"start":null,
+		"end":null,
+		"length":null,
+		"special#":null,
+		"type":null,
+		"subtype":null,
+		"company":null,
+		"remark":null
+	},
+	{
 		"start":700,
 		"end":700,
 		"length":null,
@@ -10237,6 +10277,16 @@
 		"type":"Others 其他",
 		"subtype":"** Migration / Digit-upgrade 網絡升級用",
 		"company":"** Reserved 預留",
+		"remark":null
+	},
+	{
+		"start":null,
+		"end":null,
+		"length":null,
+		"special#":null,
+		"type":null,
+		"subtype":null,
+		"company":null,
 		"remark":null
 	},
 	{
@@ -12146,7 +12196,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Sun Mobile Limited 新移動通訊有限公司",
 		"remark":null
 	},
 	{
