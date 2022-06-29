@@ -2700,6 +2700,16 @@
 		"remark":null
 	},
 	{
+		"start":182019,
+		"end":182019,
+		"length":6,
+		"special#":null,
+		"type":"Short Code (cat. 2)  短碼(第二類)",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"company":"Home Affairs Department 民政事務總署",
+		"remark":"Hotline for Government services 政府服務熱綫"
+	},
+	{
 		"start":182020,
 		"end":182020,
 		"length":6,
@@ -2767,6 +2777,16 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
 		"company":"HK SAR Govt (Efficiency Office) 香港特別行政區政府效率促進辦公室",
+		"remark":"Hotline for Government services 政府服務熱綫"
+	},
+	{
+		"start":18261,
+		"end":18263,
+		"length":5,
+		"special#":null,
+		"type":"Short Code (cat. 2)  短碼(第二類)",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"company":"Efficiency Office 效率促進辦公室",
 		"remark":"Hotline for Government services 政府服務熱綫"
 	},
 	{
@@ -4771,6 +4791,16 @@
 	},
 	{
 		"start":38570000,
+		"end":38589999,
+		"length":8,
+		"special#":null,
+		"type":"Fixed Services 固網服務",
+		"subtype":"Class One 第一類服務",
+		"company":"HKBN Enterprise Solutions HK Limited 香港寬頻企業方案香港有限公司",
+		"remark":null
+	},
+	{
+		"start":38590000,
 		"end":38599999,
 		"length":8,
 		"special#":null,
@@ -4781,6 +4811,16 @@
 	},
 	{
 		"start":38600000,
+		"end":38699999,
+		"length":8,
+		"special#":null,
+		"type":"Fixed Services 固網服務",
+		"subtype":"Class One 第一類服務",
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":null
+	},
+	{
+		"start":38700000,
 		"end":38799999,
 		"length":8,
 		"special#":null,
@@ -5576,7 +5616,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Hong Kong Telecommunications (HKT) Limited",
 		"remark":null
 	},
 	{
@@ -9520,16 +9560,6 @@
 		"remark":null
 	},
 	{
-		"start":null,
-		"end":null,
-		"length":null,
-		"special#":null,
-		"type":null,
-		"subtype":null,
-		"company":null,
-		"remark":null
-	},
-	{
 		"start":700,
 		"end":700,
 		"length":null,
@@ -10277,16 +10307,6 @@
 		"type":"Others 其他",
 		"subtype":"** Migration / Digit-upgrade 網絡升級用",
 		"company":"** Reserved 預留",
-		"remark":null
-	},
-	{
-		"start":null,
-		"end":null,
-		"length":null,
-		"special#":null,
-		"type":null,
-		"subtype":null,
-		"company":null,
 		"remark":null
 	},
 	{
@@ -12536,7 +12556,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Hong Kong Telecommunications (HKT) Limited",
 		"remark":null
 	},
 	{
