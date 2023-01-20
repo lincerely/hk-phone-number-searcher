@@ -147,7 +147,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":101,
@@ -157,7 +157,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"HKBN Enterprise Solutions HK Limited 香港寬頻企業方案香港有限公司",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1020,
@@ -177,7 +177,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"ComNet Telecom (HK) Limited 信通電話(香港)有限公司",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1022,
@@ -197,7 +197,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"SmarTone Communications Limited",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1025,
@@ -217,7 +217,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"HGC Global Communications Limited 環球全域電訊有限公司",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1040,
@@ -327,7 +327,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":121,
@@ -337,7 +337,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"HKBN Enterprise Solutions HK Limited 香港寬頻企業方案香港有限公司",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":122,
@@ -347,7 +347,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"HGC Global Communications Limited 環球全域電訊有限公司",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":123,
@@ -357,7 +357,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"HKBN Enterprise Solutions Limited 香港寬頻企業方案有限公司",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1240,
@@ -367,7 +367,7 @@
 		"type":"Short Code 短碼",
 		"subtype":"FTNS 固網服務",
 		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1258,
@@ -377,7 +377,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1259,
@@ -387,7 +387,7 @@
 		"type":"Short Code 短碼",
 		"subtype":"FTNS 固網服務",
 		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1281,
@@ -397,7 +397,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"Hong Kong Broadband Network Limited 香港寬頻網絡有限公司",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1282,
@@ -417,7 +417,7 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
 		"company":"Verizon Hong Kong Limited",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱綫/話務員協助式服務"
+		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
 	},
 	{
 		"start":1284,
@@ -826,7 +826,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"PLDT (HK) Limited",
+		"company":"** On Hold (previously assigned/allocated to PLDT (HK) Limited) 保留 (之前指配/編配予PLDT (HK) Limited)",
 		"remark":null
 	},
 	{
@@ -836,7 +836,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"IDT Telecom Asia Pacific Limited",
+		"company":"** On Hold (previously assigned/allocated to IDT Telecom Asia Pacific Limited) 保留 (之前指配/編配予IDT Telecom Asia Pacific Limited)",
 		"remark":null
 	},
 	{
@@ -1186,7 +1186,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"Gridtel Technology Limited 亞洲網絡通訊科技有限公司",
+		"company":"** On Hold (previously assigned/allocated to Gridtel Technology Limited) 保留 (之前指配/編配予亞洲網絡通訊科技有限公司)",
 		"remark":null
 	},
 	{
@@ -2685,7 +2685,7 @@
 		"length":5,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline / Telebet  服務台 / 熱綫 / 電話投注",
+		"subtype":"Helpdesk / Hotline / Telebet  服務台 / 熱線 / 電話投注",
 		"company":"Hong Kong Jockey Club 香港賽馬會",
 		"remark":null
 	},
@@ -2695,7 +2695,7 @@
 		"length":4,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline / Telebet  服務台 / 熱綫 / 電話投注",
+		"subtype":"Helpdesk / Hotline / Telebet  服務台 / 熱線 / 電話投注",
 		"company":"Hong Kong Jockey Club 香港賽馬會",
 		"remark":null
 	},
@@ -2705,9 +2705,9 @@
 		"length":6,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Home Affairs Department 民政事務總署",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":182020,
@@ -2715,19 +2715,9 @@
 		"length":6,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Financial Services and the Treasury Bureau 財經事務及庫務局",
-		"remark":"Hotline for Government services 政府服務熱綫"
-	},
-	{
-		"start":182021,
-		"end":182021,
-		"length":6,
-		"special#":null,
-		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
-		"company":"Census and Statistics Department 政府統計處",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":18205,
@@ -2735,9 +2725,9 @@
 		"length":"<=7",
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Hong Kong Fire Services Department 香港消防處",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":182123,
@@ -2745,9 +2735,9 @@
 		"length":6,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Office of the Government Chief Information Officer 政府資訊科技總監辦公室",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":182182,
@@ -2755,7 +2745,7 @@
 		"length":6,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Employees Retraining Board 僱員再培訓局",
 		"remark":null
 	},
@@ -2765,9 +2755,9 @@
 		"length":5,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Hong Kong Police Force 香港警務處",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":1823,
@@ -2775,9 +2765,9 @@
 		"length":4,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"HK SAR Govt (Efficiency Office) 香港特別行政區政府效率促進辦公室",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":18261,
@@ -2785,9 +2775,9 @@
 		"length":5,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Efficiency Office 效率促進辦公室",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":18281,
@@ -2795,7 +2785,7 @@
 		"length":5,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Tung Wah Group of Hospitals 東華三院",
 		"remark":"Community Service 公益服務"
 	},
@@ -2805,9 +2795,9 @@
 		"length":5,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"The Community Chest of Hong Kong 香港公益金",
-		"remark":"Community Service/Charity Hot Line 公益服務,慈善熱綫"
+		"remark":"Community Service/Charity Hot Line 公益服務,慈善熱線"
 	},
 	{
 		"start":18288,
@@ -2815,7 +2805,7 @@
 		"length":5,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Caritas, Hong Kong Family Service 香港明愛家庭服務",
 		"remark":"Community Service 公益服務"
 	},
@@ -2895,9 +2885,9 @@
 		"length":6,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Financial Services and the Treasury Bureau 財經事務及庫務局",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":18501,
@@ -2935,9 +2925,9 @@
 		"length":6,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"HK SAR Govt (Office of the Govt Chief Information Officer) 香港特別行政區政府資訊科技總監辦公室",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":186186,
@@ -2945,9 +2935,9 @@
 		"length":6,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"HK SAR Govt (Security Bureau) 香港特別行政區政府保安局禁毒處",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":1868,
@@ -2955,9 +2945,9 @@
 		"length":4,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"HK SAR Govt (Immigration Dept) 香港特別行政區政府入境事務處",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":187007,
@@ -2965,9 +2955,9 @@
 		"length":6,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Hong Kong Police Force 香港警務處",
-		"remark":"Hotline for Government services 政府服務熱綫"
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":18721,
@@ -2975,7 +2965,7 @@
 		"length":7,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
 		"remark":"Radio audience Phone-in 電台聽衆來電直播節目"
 	},
@@ -2985,7 +2975,7 @@
 		"length":7,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
 		"remark":"Radio audience Phone-in 電台聽衆來電直播節目"
 	},
@@ -2995,7 +2985,7 @@
 		"length":7,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
 		"remark":"Community Service, Charity Donation / Casualty Enquiry 公益服務,籌款/意外傷亡查詢"
 	},
@@ -3005,7 +2995,7 @@
 		"length":7,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
 		"remark":"Community Service, Charity Donation / Casualty Enquiry 公益服務,籌款/意外傷亡查詢"
 	},
@@ -3015,7 +3005,7 @@
 		"length":7,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
 		"remark":"Community Service, Charity Donation / Casualty Enquiry 公益服務,籌款/意外傷亡查詢"
 	},
@@ -3025,9 +3015,9 @@
 		"length":7,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline  服務台 / 熱綫",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
-		"remark":"Community Service/Charity Hot Line 公益服務,慈善熱綫"
+		"remark":"Community Service/Charity Hot Line 公益服務,慈善熱線"
 	},
 	{
 		"start":1880,
@@ -3035,7 +3025,7 @@
 		"length":4,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline / Telebet  服務台 / 熱綫 / 電話投注",
+		"subtype":"Helpdesk / Hotline / Telebet  服務台 / 熱線 / 電話投注",
 		"company":"Hong Kong Jockey Club 香港賽馬會",
 		"remark":null
 	},
@@ -3045,7 +3035,7 @@
 		"length":4,
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
-		"subtype":"Helpdesk / Hotline / Telebet  服務台 / 熱綫 / 電話投注",
+		"subtype":"Helpdesk / Hotline / Telebet  服務台 / 熱線 / 電話投注",
 		"company":"Hong Kong Jockey Club 香港賽馬會",
 		"remark":null
 	},
@@ -3736,7 +3726,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"** On Hold (previously assigned/allocated to HKC Network Limited)   保留 (之前指配予/編配中港網絡有限公司)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -4811,6 +4801,26 @@
 	},
 	{
 		"start":38600000,
+		"end":38609999,
+		"length":8,
+		"special#":null,
+		"type":"Fixed Services 固網服務",
+		"subtype":"Class One 第一類服務",
+		"company":"Hong Kong Broadband Network Limited 香港寬頻網絡有限公司",
+		"remark":null
+	},
+	{
+		"start":38610000,
+		"end":38619999,
+		"length":8,
+		"special#":null,
+		"type":"Fixed Services 固網服務",
+		"subtype":"Class One 第一類服務",
+		"company":"HGC Global Communications Limited 環球全域電訊有限公司",
+		"remark":null
+	},
+	{
+		"start":38620000,
 		"end":38699999,
 		"length":8,
 		"special#":null,
@@ -5581,6 +5591,16 @@
 	},
 	{
 		"start":44100000,
+		"end":44199999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hong Kong Telecommunications (HKT) Limited",
+		"remark":null
+	},
+	{
+		"start":44200000,
 		"end":44399999,
 		"length":8,
 		"special#":null,
@@ -6536,7 +6556,7 @@
 		"special#":null,
 		"type":"Others 其他",
 		"subtype":"Network Number 網絡號碼",
-		"company":"Easco Telecommunications Limited",
+		"company":"** On Hold (previously assigned/allocated to Easco Telecommunications Limited)  保留 (之前指配/編配予東成電訊有限公司)",
 		"remark":null
 	},
 	{
@@ -6555,7 +6575,7 @@
 		"length":">=3",
 		"special#":null,
 		"type":"Others 其他",
-		"subtype":"SMS/MMS 短信/多媒體增值服務",
+		"subtype":"SMS/MMS 短訊/多媒體增值服務",
 		"company":"** Self-managed by operators, see :  http://apps.ofca.gov.hk/apps/CodeAssign/content/code_list.asp",
 		"remark":"General Service 一般資訊"
 	},
@@ -6565,7 +6585,7 @@
 		"length":">=3",
 		"special#":"Y",
 		"type":"Others 其他",
-		"subtype":"SMS/MMS 短信/多媒體增值服務",
+		"subtype":"SMS/MMS 短訊/多媒體增值服務",
 		"company":"** Self-managed by operators, see : http://apps.ofca.gov.hk/apps/CodeAssign/content/code_list.asp",
 		"remark":"General Service 一般資訊"
 	},
@@ -6575,7 +6595,7 @@
 		"length":">=3",
 		"special#":null,
 		"type":"Others 其他",
-		"subtype":"SMS/MMS 短信/多媒體增值服務",
+		"subtype":"SMS/MMS 短訊/多媒體增值服務",
 		"company":"** Self-managed by operators, see : http://apps.ofca.gov.hk/apps/CodeAssign/content/code_list.asp",
 		"remark":"General Service 一般資訊"
 	},
@@ -6585,7 +6605,7 @@
 		"length":">=3",
 		"special#":null,
 		"type":"Others 其他",
-		"subtype":"SMS/MMS 短信/多媒體增值服務",
+		"subtype":"SMS/MMS 短訊/多媒體增值服務",
 		"company":"** Self-managed by operators, see : http://apps.ofca.gov.hk/apps/CodeAssign/content/code_list.asp",
 		"remark":"General Service 一般資訊"
 	},
@@ -6595,8 +6615,8 @@
 		"length":">=3",
 		"special#":null,
 		"type":"Others 其他",
-		"subtype":"SMS/MMS 短信/多媒體增值服務",
-		"company":"** Self-managed by operators, see : http://apps.ofca.gov.hk/apps/CodeAssign/content/code_list.asp  Optional CLI for Time-Critical Government SMS service 香港特別行政區政府緊急短信服務 - 可選主叫號碼: Hong Kong Telecommunications (HKT) Limited - 50999991 Hutchison Telephone Company Limited 和記電話有限公司 - 50999993 PCCW Mobile HK Limited - 50999995 China Mobile HK Company Limited 中國移動香港電話有限公司 - 50999997 SmarTone Mobile Communications Limited 數碼通電訊有限公司 - 50999999",
+		"subtype":"SMS/MMS 短訊/多媒體增值服務",
+		"company":"** Self-managed by operators (except 50-999-112-00), see : http://apps.ofca.gov.hk/apps/CodeAssign/content/code_list.asp  50-999-112-00: All Operators (Universally allocated) for Government use 所有營辦商  供政府使用  Optional CLI for Time-Critical Government SMS service 香港特別行政區政府緊急短訊服務 - 可選主叫號碼: Hong Kong Telecommunications (HKT) Limited - 50999991 Hutchison Telephone Company Limited 和記電話有限公司 - 50999993 PCCW Mobile HK Limited - 50999995 China Mobile HK Company Limited 中國移動香港電話有限公司 - 50999997 SmarTone Mobile Communications Limited 數碼通電訊有限公司 - 50999999",
 		"remark":"Special Information 特別資訊"
 	},
 	{
@@ -7291,7 +7311,7 @@
 	},
 	{
 		"start":55490000,
-		"end":55499999,
+		"end":55509999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
@@ -7300,7 +7320,7 @@
 		"remark":null
 	},
 	{
-		"start":55500000,
+		"start":55510000,
 		"end":55549999,
 		"length":8,
 		"special#":null,
@@ -7726,7 +7746,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Hong Kong Telecommunications (HKT) Limited",
 		"remark":null
 	},
 	{
@@ -8626,7 +8646,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Easco Telecommunications Limited",
+		"company":"** On Hold (previously assigned/allocated to Easco Telecommunications Limited)  保留 (之前指配/編配予東成電訊有限公司)",
 		"remark":null
 	},
 	{
@@ -10336,7 +10356,7 @@
 		"special#":null,
 		"type":"Fixed Services 固網服務",
 		"subtype":"Freephone 免費電話",
-		"company":"** Spare 備用",
+		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
 		"remark":null
 	},
 	{
@@ -10356,7 +10376,7 @@
 		"special#":null,
 		"type":"Fixed Services 固網服務",
 		"subtype":"Freephone 免費電話",
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -10386,7 +10406,7 @@
 		"special#":null,
 		"type":"Fixed Services 固網服務",
 		"subtype":"Freephone 免費電話",
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -10401,6 +10421,16 @@
 	},
 	{
 		"start":800909000,
+		"end":800909999,
+		"length":9,
+		"special#":null,
+		"type":"Fixed Services 固網服務",
+		"subtype":"Freephone 免費電話",
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":null
+	},
+	{
+		"start":800910000,
 		"end":800929999,
 		"length":9,
 		"special#":null,
@@ -10456,7 +10486,7 @@
 		"special#":null,
 		"type":"Fixed Services 固網服務",
 		"subtype":"Freephone 免費電話",
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -10501,22 +10531,12 @@
 	},
 	{
 		"start":800940000,
-		"end":800940999,
-		"length":9,
-		"special#":null,
-		"type":"Fixed Services 固網服務",
-		"subtype":"Freephone 免費電話",
-		"company":"** Spare 備用",
-		"remark":null
-	},
-	{
-		"start":800941000,
 		"end":800943999,
 		"length":9,
 		"special#":null,
 		"type":"Fixed Services 固網服務",
 		"subtype":"Freephone 免費電話",
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -10531,6 +10551,16 @@
 	},
 	{
 		"start":800945000,
+		"end":800949999,
+		"length":9,
+		"special#":null,
+		"type":"Fixed Services 固網服務",
+		"subtype":"Freephone 免費電話",
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":null
+	},
+	{
+		"start":800950000,
 		"end":800959999,
 		"length":9,
 		"special#":null,
@@ -11577,7 +11607,7 @@
 		"type":"Fixed Services 固網服務",
 		"subtype":"Information Service 資訊服務",
 		"company":"PCCW-HKT Telephone Limited and Hong Kong Telecommunications (HKT) Limited",
-		"remark":"Mass Calling Service 高業務量電話綫"
+		"remark":"Mass Calling Service 高業務量電話線"
 	},
 	{
 		"start":90031000,
@@ -11587,7 +11617,7 @@
 		"type":"Fixed Services 固網服務",
 		"subtype":"Information Service 資訊服務",
 		"company":"HKBN Enterprise Solutions HK Limited 香港寬頻企業方案香港有限公司",
-		"remark":"Mass Calling Service 高業務量電話綫"
+		"remark":"Mass Calling Service 高業務量電話線"
 	},
 	{
 		"start":90032000,
@@ -11597,7 +11627,7 @@
 		"type":"Fixed Services 固網服務",
 		"subtype":"Information Service 資訊服務",
 		"company":"HGC Global Communications Limited 環球全域電訊有限公司",
-		"remark":"Mass Calling Service 高業務量電話綫"
+		"remark":"Mass Calling Service 高業務量電話線"
 	},
 	{
 		"start":90033000,
@@ -11607,7 +11637,7 @@
 		"type":"Fixed Services 固網服務",
 		"subtype":"Information Service 資訊服務",
 		"company":"HKBN Enterprise Solutions Limited 香港寬頻企業方案有限公司",
-		"remark":"Mass Calling Service 高業務量電話綫"
+		"remark":"Mass Calling Service 高業務量電話線"
 	},
 	{
 		"start":90034000,
@@ -11617,7 +11647,7 @@
 		"type":"Fixed Services 固網服務",
 		"subtype":"Information Service 資訊服務",
 		"company":"Hong Kong Broadband Network Limited 香港寬頻網絡有限公司",
-		"remark":"Mass Calling Service 高業務量電話綫"
+		"remark":"Mass Calling Service 高業務量電話線"
 	},
 	{
 		"start":90034100,
@@ -11627,7 +11657,7 @@
 		"type":"Fixed Services 固網服務",
 		"subtype":"Information Service 資訊服務",
 		"company":null,
-		"remark":"Mass Calling Service 高業務量電話綫"
+		"remark":"Mass Calling Service 高業務量電話線"
 	},
 	{
 		"start":90035000,
@@ -11637,7 +11667,7 @@
 		"type":"Fixed Services 固網服務",
 		"subtype":"Information Service 資訊服務",
 		"company":"ComNet Telecom (HK) Limited 信通電話(香港)有限公司",
-		"remark":"Mass Calling Service 高業務量電話綫"
+		"remark":"Mass Calling Service 高業務量電話線"
 	},
 	{
 		"start":90035100,
@@ -11647,7 +11677,7 @@
 		"type":"Fixed Services 固網服務",
 		"subtype":"Information Service 資訊服務",
 		"company":null,
-		"remark":"Mass Calling Service 高業務量電話綫"
+		"remark":"Mass Calling Service 高業務量電話線"
 	},
 	{
 		"start":90040000000,
@@ -12927,7 +12957,7 @@
 		"type":"Emergency Service (cat. 1) 緊急服務(第一類)",
 		"subtype":"Emergency Services routing code 緊急服務編碼",
 		"company":"** All Operators (Universally allocated) 所有營辦商",
-		"remark":"Emergency Faxline and Short Message 緊急傳真及短信"
+		"remark":"Emergency Faxline and Short Message 緊急傳真及短訊"
 	},
 	{
 		"start":993,
