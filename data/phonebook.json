@@ -196,8 +196,8 @@
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"FTNS 固網服務",
-		"company":"SmarTone Communications Limited",
-		"remark":"Enquiry/hotlines/Operator-assisted Services 查詢/熱線/話務員協助式服務"
+		"company":"** On Hold (previously assigned/allocated to SmarTone Communications Limited) 保留 (之前指配/編配予SmarTone Communications Limited)",
+		"remark":null
 	},
 	{
 		"start":1025,
@@ -816,7 +816,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"South China Telecommunications (HK) Limited 中國南方電信(香港)有限公司",
+		"company":"South China Telecommunications (H.K.) Limited 中國南方電信(香港)有限公司",
 		"remark":null
 	},
 	{
@@ -826,7 +826,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"** On Hold (previously assigned/allocated to PLDT (HK) Limited) 保留 (之前指配/編配予PLDT (HK) Limited)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -836,7 +836,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"** On Hold (previously assigned/allocated to IDT Telecom Asia Pacific Limited) 保留 (之前指配/編配予IDT Telecom Asia Pacific Limited)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -1186,7 +1186,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"** On Hold (previously assigned/allocated to Gridtel Technology Limited) 保留 (之前指配/編配予亞洲網絡通訊科技有限公司)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -1826,7 +1826,7 @@
 		"special#":"Y",
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"IDD1628 Limited 1628 電訊有限公司",
+		"company":"** On Hold (previously assigned/allocated to IDD1628 Limited)   保留 (之前指配/編配予1628 電訊有限公司) ",
 		"remark":null
 	},
 	{
@@ -1906,7 +1906,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":"ETS 對外電信服務",
-		"company":"** On Hold (previously assigned/allocated to PACIFIC LONG DISTANCE TELEPHONE CORPORATION LIMITED)   保留 (之前指配/編配予太平洋長途電話有限公司)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -2546,7 +2546,7 @@
 		"special#":null,
 		"type":"Short Code 短碼",
 		"subtype":"Mobile Services 移動服務",
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"** Spare 備用",
 		"remark":null
 	},
 	{
@@ -2560,23 +2560,13 @@
 		"remark":null
 	},
 	{
-		"start":17218,
-		"end":17218,
-		"length":"<=7",
-		"special#":null,
-		"type":"Short Code 短碼",
-		"subtype":"Mobile Services 移動服務",
-		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":null
-	},
-	{
 		"start":17219,
 		"end":17219,
 		"length":"<=7",
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"Mobile Services 移動服務",
-		"company":"Truphone (Hong Kong) Limited",
+		"company":"TP Hong Kong Operations Limited",
 		"remark":null
 	},
 	{
@@ -2590,13 +2580,13 @@
 		"remark":null
 	},
 	{
-		"start":174,
-		"end":174,
+		"start":17456,
+		"end":17456,
 		"length":"<=7",
 		"special#":null,
-		"type":"Short Code 短碼",
+		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"Mobile Services 移動服務",
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"China Telecom Global Limited 中國電信國際有限公司",
 		"remark":null
 	},
 	{
@@ -2690,6 +2680,26 @@
 		"remark":null
 	},
 	{
+		"start":18111,
+		"end":18111,
+		"length":5,
+		"special#":null,
+		"type":"Short Code (cat. 2)  短碼(第二類)",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
+		"company":"Department of Health 衞生署",
+		"remark":"Hotline for Government services 政府服務熱線"
+	},
+	{
+		"start":181181,
+		"end":181181,
+		"length":6,
+		"special#":null,
+		"type":"Short Code (cat. 2)  短碼(第二類)",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
+		"company":"Hong Kong Police Force 香港警務處",
+		"remark":"Hotline for Government services 政府服務熱線"
+	},
+	{
 		"start":1812,
 		"end":1818,
 		"length":4,
@@ -2706,8 +2716,8 @@
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
-		"company":"Home Affairs Department 民政事務總署",
-		"remark":"Hotline for Government services 政府服務熱線"
+		"company":"** On Hold (previously assigned/allocated to Home Affairs Department) 保留 (之前指配/編配予民政事務總署)",
+		"remark":null
 	},
 	{
 		"start":182020,
@@ -2716,7 +2726,17 @@
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
-		"company":"Financial Services and the Treasury Bureau 財經事務及庫務局",
+		"company":"** On Hold (previously assigned/allocated to Financial Services and the Treasury Bureau) 保留 (之前指配/編配予財經事務及庫務局)",
+		"remark":null
+	},
+	{
+		"start":182026,
+		"end":182026,
+		"length":6,
+		"special#":null,
+		"type":"Short Code (cat. 2)  短碼(第二類)",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
+		"company":"Census and Statistics Department 政府統計處",
 		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
@@ -2727,6 +2747,16 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Hong Kong Fire Services Department 香港消防處",
+		"remark":"Hotline for Government services 政府服務熱線"
+	},
+	{
+		"start":182111,
+		"end":182111,
+		"length":6,
+		"special#":null,
+		"type":"Short Code (cat. 2)  短碼(第二類)",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
+		"company":"Home Affairs Department 民政事務總署",
 		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
@@ -2748,6 +2778,16 @@
 		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Employees Retraining Board 僱員再培訓局",
 		"remark":null
+	},
+	{
+		"start":182183,
+		"end":182183,
+		"length":6,
+		"special#":null,
+		"type":"Short Code (cat. 2)  短碼(第二類)",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
+		"company":"Social Welfare Department 社會福利署",
+		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
 		"start":18222,
@@ -2777,6 +2817,16 @@
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
 		"company":"Efficiency Office 效率促進辦公室",
+		"remark":"Hotline for Government services 政府服務熱線"
+	},
+	{
+		"start":1828080,
+		"end":1828080,
+		"length":7,
+		"special#":null,
+		"type":"Short Code (cat. 2)  短碼(第二類)",
+		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
+		"company":"Customs and Excise Department 香港海關",
 		"remark":"Hotline for Government services 政府服務熱線"
 	},
 	{
@@ -2886,8 +2936,8 @@
 		"special#":null,
 		"type":"Short Code (cat. 2)  短碼(第二類)",
 		"subtype":"Helpdesk / Hotline  服務台 / 熱線",
-		"company":"Financial Services and the Treasury Bureau 財經事務及庫務局",
-		"remark":"Hotline for Government services 政府服務熱線"
+		"company":"** On Hold (previously assigned/allocated to Financial Services and the Treasury Bureau) 保留 (之前指配/編配予財經事務及庫務局)",
+		"remark":null
 	},
 	{
 		"start":18501,
@@ -3156,7 +3206,7 @@
 		"special#":null,
 		"type":"Access Code 接入碼",
 		"subtype":null,
-		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"company":"HGC Global Communications Limited 環球全域電訊有限公司",
 		"remark":"Calling Card 電話卡"
 	},
 	{
@@ -4796,7 +4846,7 @@
 		"special#":null,
 		"type":"Fixed Services 固網服務",
 		"subtype":"Class One 第一類服務",
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Hong Kong Broadband Network Limited 香港寬頻網絡有限公司",
 		"remark":null
 	},
 	{
@@ -4821,6 +4871,16 @@
 	},
 	{
 		"start":38620000,
+		"end":38629999,
+		"length":8,
+		"special#":null,
+		"type":"Fixed Services 固網服務",
+		"subtype":"Class One 第一類服務",
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
+		"remark":null
+	},
+	{
+		"start":38630000,
 		"end":38699999,
 		"length":8,
 		"special#":null,
@@ -4831,6 +4891,26 @@
 	},
 	{
 		"start":38700000,
+		"end":38719999,
+		"length":8,
+		"special#":null,
+		"type":"Fixed Services 固網服務",
+		"subtype":"Class One 第一類服務",
+		"company":"Hong Kong Broadband Network Limited 香港寬頻網絡有限公司",
+		"remark":null
+	},
+	{
+		"start":38720000,
+		"end":38739999,
+		"length":8,
+		"special#":null,
+		"type":"Fixed Services 固網服務",
+		"subtype":"Class One 第一類服務",
+		"company":"HGC Global Communications Limited 環球全域電訊有限公司",
+		"remark":null
+	},
+	{
+		"start":38740000,
 		"end":38799999,
 		"length":8,
 		"special#":null,
@@ -5086,7 +5166,7 @@
 		"special#":null,
 		"type":"Others 其他",
 		"subtype":"Network Number 網絡號碼",
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"South China Telecommunications (H.K.) Limited 中國南方電信(香港)有限公司",
 		"remark":null
 	},
 	{
@@ -5601,16 +5681,46 @@
 	},
 	{
 		"start":44200000,
+		"end":44299999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":44300000,
 		"end":44399999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Hong Kong Telecommunications (HKT) Limited",
 		"remark":null
 	},
 	{
 		"start":44400000,
+		"end":44409999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Sun Mobile Limited 新移動通訊有限公司",
+		"remark":null
+	},
+	{
+		"start":44410000,
+		"end":44429999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":44430000,
 		"end":44439999,
 		"length":8,
 		"special#":null,
@@ -5641,12 +5751,52 @@
 	},
 	{
 		"start":44500000,
+		"end":44599999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":44600000,
+		"end":44699999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":44700000,
+		"end":44799999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
+		"remark":null
+	},
+	{
+		"start":44800000,
+		"end":44899999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":44900000,
 		"end":44999999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
 		"remark":null
 	},
 	{
@@ -5846,17 +5996,27 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
 		"start":46080000,
+		"end":46089999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Sun Mobile Limited 新移動通訊有限公司",
+		"remark":null
+	},
+	{
+		"start":46090000,
 		"end":46099999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"China Telecom Global Limited 中國電信國際有限公司",
 		"remark":null
 	},
 	{
@@ -5911,12 +6071,32 @@
 	},
 	{
 		"start":46170000,
+		"end":46179999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
+		"remark":null
+	},
+	{
+		"start":46180000,
+		"end":46189999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
+		"remark":null
+	},
+	{
+		"start":46190000,
 		"end":46199999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"China Telecom Global Limited 中國電信國際有限公司",
 		"remark":null
 	},
 	{
@@ -5996,7 +6176,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -6036,7 +6216,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -6086,7 +6266,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Sun Mobile Limited 新移動通訊有限公司",
 		"remark":null
 	},
 	{
@@ -6101,7 +6281,37 @@
 	},
 	{
 		"start":46900000,
+		"end":46989999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
+		"remark":null
+	},
+	{
+		"start":46990000,
 		"end":46999999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"South China Telecommunications (H.K.) Limited 中國南方電信(香港)有限公司",
+		"remark":null
+	},
+	{
+		"start":47000000,
+		"end":47099999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":47100000,
+		"end":47399999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
@@ -6110,23 +6320,23 @@
 		"remark":null
 	},
 	{
-		"start":47000000,
-		"end":47399999,
+		"start":47400000,
+		"end":47429999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
 		"remark":null
 	},
 	{
-		"start":47400000,
+		"start":47430000,
 		"end":47469999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6141,22 +6351,52 @@
 	},
 	{
 		"start":47480000,
+		"end":47489999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"China Telecom Global Limited 中國電信國際有限公司",
+		"remark":null
+	},
+	{
+		"start":47490000,
 		"end":47499999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
 		"start":47500000,
+		"end":47599999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":47600000,
+		"end":47659999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
+		"remark":null
+	},
+	{
+		"start":47660000,
 		"end":47999999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6476,7 +6716,7 @@
 		"special#":null,
 		"type":"Others 其他",
 		"subtype":"Network Number 網絡號碼",
-		"company":"Truphone (Hong Kong) Limited",
+		"company":"TP Hong Kong Operations Limited",
 		"remark":null
 	},
 	{
@@ -6486,7 +6726,7 @@
 		"special#":null,
 		"type":"Others 其他",
 		"subtype":"Network Number 網絡號碼",
-		"company":"263 Mobile Communications (Hong Kong) Limited 263 移動通信(香港)有限公司",
+		"company":"HuiYinBi Telecom (Hong Kong) Limited 回音壁電信(香港)有限公司",
 		"remark":null
 	},
 	{
@@ -6516,7 +6756,7 @@
 		"special#":null,
 		"type":"Others 其他",
 		"subtype":"Network Number 網絡號碼",
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -6556,7 +6796,7 @@
 		"special#":null,
 		"type":"Others 其他",
 		"subtype":"Network Number 網絡號碼",
-		"company":"** On Hold (previously assigned/allocated to Easco Telecommunications Limited)  保留 (之前指配/編配予東成電訊有限公司)",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6666,7 +6906,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -6726,7 +6966,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Truphone (Hong Kong) Limited",
+		"company":"TP Hong Kong Operations Limited",
 		"remark":null
 	},
 	{
@@ -6736,7 +6976,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6756,7 +6996,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6841,23 +7081,13 @@
 	},
 	{
 		"start":52340000,
-		"end":52349999,
-		"length":8,
-		"special#":null,
-		"type":"Mobile Service 流動服務",
-		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to Lycamobile Hong Kong Limited)   保留 (之前指配/編配予Lycamobile Hong Kong Limited)",
-		"remark":null
-	},
-	{
-		"start":52350000,
 		"end":52359999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to 21Vianet Mobile Limited)   保留 (之前指配/編配予世紀互聯移動通訊有限公司)",
-		"remark":null
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":"Containing Ported Number 包含已轉攜號碼"
 	},
 	{
 		"start":52360000,
@@ -6896,7 +7126,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6916,7 +7146,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -6946,7 +7176,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Truphone (Hong Kong) Limited",
+		"company":"TP Hong Kong Operations Limited",
 		"remark":null
 	},
 	{
@@ -6966,7 +7196,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -7006,7 +7236,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"263 Mobile Communications (Hong Kong) Limited 263 移動通信(香港)有限公司",
+		"company":"HuiYinBi Telecom (Hong Kong) Limited 回音壁電信(香港)有限公司",
 		"remark":null
 	},
 	{
@@ -7076,7 +7306,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -7096,7 +7326,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -7311,7 +7541,7 @@
 	},
 	{
 		"start":55490000,
-		"end":55509999,
+		"end":55519999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
@@ -7320,7 +7550,7 @@
 		"remark":null
 	},
 	{
-		"start":55510000,
+		"start":55520000,
 		"end":55549999,
 		"length":8,
 		"special#":null,
@@ -7536,7 +7766,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -7556,7 +7786,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -7606,8 +7836,8 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to Lycamobile Hong Kong Limited)   保留 (之前指配/編配予Lycamobile Hong Kong Limited)",
-		"remark":null
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":"Containing Ported Number 包含已轉攜號碼"
 	},
 	{
 		"start":57200000,
@@ -7656,7 +7886,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -7666,7 +7896,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -7726,8 +7956,8 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to Lycamobile Hong Kong Limited)   保留 (之前指配/編配予Lycamobile Hong Kong Limited)",
-		"remark":null
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":"Containing Ported Number 包含已轉攜號碼"
 	},
 	{
 		"start":57700000,
@@ -7861,16 +8091,6 @@
 	},
 	{
 		"start":58045000,
-		"end":58045099,
-		"length":8,
-		"special#":null,
-		"type":"Fixed Services 固網服務",
-		"subtype":"Class Two 第二類服務",
-		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":null
-	},
-	{
-		"start":58045100,
 		"end":58045999,
 		"length":8,
 		"special#":null,
@@ -7986,7 +8206,7 @@
 		"special#":null,
 		"type":"Fixed Services 固網服務",
 		"subtype":"Class Two 第二類服務",
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"DIDWW HK Limited ",
 		"remark":null
 	},
 	{
@@ -8011,72 +8231,12 @@
 	},
 	{
 		"start":58120000,
-		"end":58121999,
-		"length":8,
-		"special#":null,
-		"type":"Fixed Services 固網服務",
-		"subtype":"Class Two 第二類服務",
-		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":null
-	},
-	{
-		"start":58122000,
-		"end":58123999,
-		"length":8,
-		"special#":null,
-		"type":"Fixed Services 固網服務",
-		"subtype":"Class Two 第二類服務",
-		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":null
-	},
-	{
-		"start":58124000,
-		"end":58124999,
-		"length":8,
-		"special#":null,
-		"type":"Fixed Services 固網服務",
-		"subtype":"Class Two 第二類服務",
-		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":null
-	},
-	{
-		"start":58125000,
-		"end":58125999,
-		"length":8,
-		"special#":null,
-		"type":"Fixed Services 固網服務",
-		"subtype":"Class Two 第二類服務",
-		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":null
-	},
-	{
-		"start":58126000,
-		"end":58127999,
-		"length":8,
-		"special#":null,
-		"type":"Fixed Services 固網服務",
-		"subtype":"Class Two 第二類服務",
-		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":null
-	},
-	{
-		"start":58128000,
-		"end":58128999,
-		"length":8,
-		"special#":null,
-		"type":"Fixed Services 固網服務",
-		"subtype":"Class Two 第二類服務",
-		"company":"** Spare - open for application 備用/供申請使用",
-		"remark":null
-	},
-	{
-		"start":58129000,
 		"end":58129999,
 		"length":8,
 		"special#":null,
 		"type":"Fixed Services 固網服務",
 		"subtype":"Class Two 第二類服務",
-		"company":"EC Telecom Limited",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -8261,23 +8421,13 @@
 	},
 	{
 		"start":59060000,
-		"end":59079999,
-		"length":8,
-		"special#":null,
-		"type":"Mobile Service 流動服務",
-		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to 21Vianet Mobile Limited)   保留 (之前指配/編配予世紀互聯移動通訊有限公司)",
-		"remark":null
-	},
-	{
-		"start":59080000,
 		"end":59099999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to Lycamobile Hong Kong Limited)   保留 (之前指配/編配予Lycamobile Hong Kong Limited)",
-		"remark":null
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":"Containing Ported Number 包含已轉攜號碼"
 	},
 	{
 		"start":59100000,
@@ -8326,7 +8476,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare 備用",
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
 		"remark":null
 	},
 	{
@@ -8626,8 +8776,8 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to CMMobile Global Communications Limited)  保留 (之前指配/編配予潤迅通信(香港)有限公司)",
-		"remark":null
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":"Containing Ported Number 包含已轉攜號碼"
 	},
 	{
 		"start":62500000,
@@ -8641,16 +8791,6 @@
 	},
 	{
 		"start":62600000,
-		"end":62600999,
-		"length":8,
-		"special#":null,
-		"type":"Mobile Service 流動服務",
-		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to Easco Telecommunications Limited)  保留 (之前指配/編配予東成電訊有限公司)",
-		"remark":null
-	},
-	{
-		"start":62601000,
 		"end":62609999,
 		"length":8,
 		"special#":null,
@@ -8696,7 +8836,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -8856,7 +8996,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -9396,8 +9536,8 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to CMMobile Global Communications Limited)  保留 (之前指配/編配予潤迅通信(香港)有限公司)",
-		"remark":null
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":"Containing Ported Number 包含已轉攜號碼"
 	},
 	{
 		"start":68400000,
@@ -9546,8 +9686,8 @@
 		"special#":"Y",
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to CMMobile Global Communications Limited)  保留 (之前指配/編配予潤迅通信(香港)有限公司)",
-		"remark":null
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":"Containing Ported Number 包含已轉攜號碼"
 	},
 	{
 		"start":69700000,
@@ -9566,8 +9706,8 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to CMMobile Global Communications Limited)  保留 (之前指配/編配予潤迅通信(香港)有限公司)",
-		"remark":null
+		"company":"** Spare - open for application 備用/供申請使用",
+		"remark":"Containing Ported Number 包含已轉攜號碼"
 	},
 	{
 		"start":69900000,
@@ -9591,6 +9731,46 @@
 	},
 	{
 		"start":70100000,
+		"end":70199999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
+		"remark":null
+	},
+	{
+		"start":70200000,
+		"end":70299999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":70300000,
+		"end":70399999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":70400000,
+		"end":70499999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":70500000,
 		"end":70699999,
 		"length":8,
 		"special#":null,
@@ -9621,6 +9801,26 @@
 	},
 	{
 		"start":70760000,
+		"end":70769999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
+		"remark":null
+	},
+	{
+		"start":70770000,
+		"end":70789999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":70790000,
 		"end":70799999,
 		"length":8,
 		"special#":null,
@@ -9656,7 +9856,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
 		"remark":null
 	},
 	{
@@ -9846,7 +10046,7 @@
 		"special#":null,
 		"type":"Paging Service 傳呼服務",
 		"subtype":null,
-		"company":"Telecom Digital Data Limited 電訊數碼信息有限公司",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -9906,7 +10106,7 @@
 		"special#":null,
 		"type":"Paging Service 傳呼服務",
 		"subtype":null,
-		"company":"Telecom Digital Data Limited 電訊數碼信息有限公司",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -10046,7 +10246,7 @@
 		"special#":null,
 		"type":"Paging Service 傳呼服務",
 		"subtype":null,
-		"company":"Telecom Digital Data Limited 電訊數碼信息有限公司",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -10066,7 +10266,7 @@
 		"special#":null,
 		"type":"Paging Service 傳呼服務",
 		"subtype":null,
-		"company":"Telecom Digital Data Limited 電訊數碼信息有限公司",
+		"company":"** Spare - open for application 備用/供申請使用",
 		"remark":null
 	},
 	{
@@ -11111,6 +11311,46 @@
 	},
 	{
 		"start":84100000,
+		"end":84199999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":84200000,
+		"end":84299999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hong Kong Telecommunications (HKT) Limited",
+		"remark":null
+	},
+	{
+		"start":84300000,
+		"end":84399999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
+		"remark":null
+	},
+	{
+		"start":84400000,
+		"end":84429999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
+		"remark":null
+	},
+	{
+		"start":84430000,
 		"end":84799999,
 		"length":8,
 		"special#":null,
@@ -11141,12 +11381,22 @@
 	},
 	{
 		"start":84820000,
+		"end":84829999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Sun Mobile Limited 新移動通訊有限公司",
+		"remark":null
+	},
+	{
+		"start":84830000,
 		"end":84839999,
 		"length":8,
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"China Telecom Global Limited 中國電信國際有限公司",
 		"remark":null
 	},
 	{
@@ -11996,7 +12246,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** On Hold (previously assigned/allocated to CMMobile Global Communications Limited)  保留 (之前指配/編配予潤迅通信(香港)有限公司)",
+		"company":"Hutchison Telephone Company Limited 和記電話有限公司",
 		"remark":null
 	},
 	{
@@ -12236,7 +12486,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"Multibyte Info Technology Ltd. 博元訊息科技有限公司",
+		"company":"Multibyte Info Technology Limited 博元訊息科技有限公司",
 		"remark":null
 	},
 	{
@@ -12361,6 +12611,16 @@
 	},
 	{
 		"start":93900000,
+		"end":93919999,
+		"length":8,
+		"special#":null,
+		"type":"Mobile Service 流動服務",
+		"subtype":null,
+		"company":"Sun Mobile Limited 新移動通訊有限公司",
+		"remark":null
+	},
+	{
+		"start":93920000,
 		"end":93929999,
 		"length":8,
 		"special#":null,
@@ -12386,7 +12646,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"China Mobile Hong Kong Company Limited 中國移動香港有限公司",
 		"remark":null
 	},
 	{
@@ -12926,7 +13186,7 @@
 		"special#":null,
 		"type":"Mobile Service 流動服務",
 		"subtype":null,
-		"company":"** Spare - open for application 備用/供申請使用",
+		"company":"Sun Mobile Limited 新移動通訊有限公司",
 		"remark":null
 	},
 	{
