@@ -1,5 +1,3 @@
-
-
 function normalize(d) {
 	if (d == "N/A" || d == "") {
 		return null;
@@ -109,7 +107,8 @@ $(document).ready(function () {
         $("#input-box").fadeIn()
     }, 500);
     
-    const url = "https://www.ofca.gov.hk/filemanager/ofca/common/datagovhk/tel_no_en_tc.csv";
+    //const url = "https://www.ofca.gov.hk/filemanager/ofca/common/datagovhk/tel_no_en_tc.csv";
+	const url = "tel_no_en_tc.csv";
     fetch(url).then(function(resp) {
 		return resp.text();
 	}).then(function(t) {
