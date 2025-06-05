@@ -107,20 +107,29 @@ $(document).ready(function () {
         $("#input-box").fadeIn()
     }, 500);
     
-    //const url = "https://www.ofca.gov.hk/filemanager/ofca/common/datagovhk/tel_no_en_tc.csv";
-	const url = "tel_no_en_tc.csv";
-    fetch(url).then(function(resp) {
-		return resp.text();
-	}).then(function(t) {
-	    phonebook = parse_phonebook(t);
-	    console.log("phonebook loaded.");
-        console.log(phonebook);
+	var date = new Date();
+	date.setDate(date.getDate() - 1);
+	let date_str = date.toISOString().slice(0,10).replaceAll("-","");
 
-        //support 'GET' uri inputs
-        if (input !== null) {
-            $("input").val(input);
-            check(input);
-        }
+	let encoded_url = "https%3A%2F%2Fwww.ofca.gov.hk%2Ffilemanager%2Fofca%2Fcommon%2Fdatagovhk%2Ftel_no_en_tc.csv";
+	let file_version_url = "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url="+encoded_url+"&start="+date_str+"&end="+date_str;
+	fetch(file_version_url).then(function(resp) {
+		return resp.json();
+	}).then(function(d) {
+	    const archive_url = "https://api.data.gov.hk/v1/historical-archive/get-file?url="+encoded_url+"&time="+d.timestamps[0];
+	    fetch(archive_url).then(function(resp) {
+			return resp.text();
+		}).then(function(t) {
+		    phonebook = parse_phonebook(t);
+		    console.log("phonebook loaded.");
+	        console.log(phonebook);
+	
+	        //support 'GET' uri inputs
+	        if (input !== null) {
+	            $("input").val(input);
+	            check(input);
+        	}
+        })
 	}).catch(function(err) {
 		console.log("failed to fetch data: " + err);
 		
