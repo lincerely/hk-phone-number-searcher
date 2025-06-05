@@ -12,14 +12,3 @@ The following information will be displayed on available:
  - Remarks 備註
  
 Support English and Traditional Chinese.
-
-## Prepare Data
-
-Get numbering plan from https://www.ofca.gov.hk/filemanager/ofca/common/datagovhk/tel_no_en_tc.csv and parse it into a clean json file.
-
-``` bash
-    cd data
-    ./getData.sh
-```    
-
-and update the "Last Update" time in `index.html`

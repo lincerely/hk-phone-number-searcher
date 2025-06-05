@@ -1,16 +1,49 @@
-var phonebook = null;   //which stores the json data
+
+
+function normalize(d) {
+	if (d == "N/A" || d == "") {
+		return null;
+	} else {
+		return d;
+	}
+}
+
+function parse_phonebook(t) {
+    var phonebook = [];
+
+	var lines = t.split("\r\n");
+	for (i = 1; i < lines.length; i++) {
+		var entries = lines[i].split("\",\"");
+		entries[0] = entries[0].replace(/^\"/, "");
+		entries[7] = entries[7].replace(/\"$/, "");
+		entries[0] = entries[0].replace("-", "");
+		entries[1] = entries[1].replace("-", "");
+		phonebook[i-1] = {
+			start: normalize(entries[0]),
+			end: normalize(entries[1]),
+			length: normalize(entries[2]),
+			"special#": normalize(entries[3]),
+			type: normalize(entries[4]),
+			subtype: normalize(entries[5]),
+			company: normalize(entries[6]),
+			remark: normalize(entries[7])
+		}
+	}
+	return phonebook;
+}
+
+var phonebook = null;
 
 //-- All displayed text in html --
 var titleText = "香港電話號碼查詢";
 var subTitleText = "查詢任何香港電話號碼的供應商和類型";
-var lastUpdateText = "最後修訂";
 
 var errorText = "請輸入有效的電話號碼";
 var noResultText = "找不到相關資料";
 var noDataText = "揾唔到資料呀...召喚IT狗啦 :/";
 
 var changeLangText = "English pls";
-var detailText = "詳細";
+var detailText = "資料來源及最後更新日期";
 
 var typeText = "主類別";
 var subTypeText = "次類別";
@@ -32,13 +65,12 @@ if (lang === "en") {
     //-- Eng Alternative --
     titleText = "HK Phone Searcher";
     subTitleText = "Retreive carrier information and type of<br> Any Hong Kong Phone Number";
-    lastUpdateText = "Last Update";
 
     errorText = "Please enter a valid phone number.";
     noResultText = "No result found.";
     noDataText = "Sorry, I can't get any data from the server.<br>Please contact the IT guy to fix this :/";
 
-    detailText = "Detail";
+    detailText = "Source and Last update date";
     changeLangText = "中文呀";
 
     typeText = "Category";
@@ -63,7 +95,6 @@ $(document).ready(function () {
     errorfield = $('#error-msg');
 
     $('h1').text(titleText);
-    $('#lastUpdate').text(lastUpdateText);
     $('#subTitle').html(subTitleText + "<br>");
     $('#detail').text(detailText);
     $('#changeLang').text(changeLangText);
@@ -77,11 +108,13 @@ $(document).ready(function () {
     setTimeout(function () {
         $("#input-box").fadeIn()
     }, 500);
-
-
-    $.getJSON("data/phonebook.json", function (data) {
-        phonebook = data;
-        console.log("Json loaded.");
+    
+    const url = "https://www.ofca.gov.hk/filemanager/ofca/common/datagovhk/tel_no_en_tc.csv";
+    fetch(url).then(function(resp) {
+		return resp.text();
+	}).then(function(t) {
+	    phonebook = parse_phonebook(t);
+	    console.log("phonebook loaded.");
         console.log(phonebook);
 
         //support 'GET' uri inputs
@@ -89,16 +122,16 @@ $(document).ready(function () {
             $("input").val(input);
             check(input);
         }
-
-    }).fail(function () {
-        console.log("Fail loading json.");
-        errorfield.html(noDataText);
+	}).catch(function(err) {
+		console.log("failed to fetch data: " + err);
+		
+		errorfield.html(noDataText);
         errorfield.fadeIn();
         inputfield.prop('disabled', true);
 
         form.find(".ripple-this").removeClass('ripple-this');
         form.find("button").prop('disabled', true);
-    })
+	});
 
     form.on('submit', function (e) {
         resultfield.hide();
@@ -128,6 +161,7 @@ function check(input) {
     }
 }
 
+
 function getResult(input) {
     var result = noResultText;
     //go through each row in phone book
@@ -148,7 +182,7 @@ function getResult(input) {
             }
 
         } else {
-            isEqual = row.length === input.length;
+            isEqual = row.length == input.length;
         }
 
         if (isEqual) {
