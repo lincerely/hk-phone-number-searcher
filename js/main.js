@@ -117,20 +117,20 @@ $(document).ready(function () {
 		return resp.json();
 	}).then(function(d) {
 	    const archive_url = "https://api.data.gov.hk/v1/historical-archive/get-file?url="+encoded_url+"&time="+d.timestamps[0];
-	    fetch(archive_url).then(function(resp) {
-			return resp.text();
-		}).then(function(t) {
-		    phonebook = parse_phonebook(t);
-		    console.log("phonebook loaded.");
-	        console.log(phonebook);
-	
-	        //support 'GET' uri inputs
-	        if (input !== null) {
-	            $("input").val(input);
-	            check(input);
-        	}
-        })
-	}).catch(function(err) {
+	    return fetch(archive_url)
+	}).then(function(resp) {
+		return resp.text();
+	}).then(function(t) {
+	    phonebook = parse_phonebook(t);
+	    console.log("phonebook loaded.");
+        console.log(phonebook);
+
+        //support 'GET' uri inputs
+        if (input !== null) {
+            $("input").val(input);
+            check(input);
+    	}
+    }).catch(function(err) {
 		console.log("failed to fetch data: " + err);
 		
 		errorfield.html(noDataText);
