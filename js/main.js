@@ -109,7 +109,7 @@ $(document).ready(function () {
     
 	var date = new Date();
 	date.setDate(date.getDate() - 1);
-	let date_str = date.toISOString().slice(0,10).replaceAll("-","");
+	let date_str = date.toISOString().slice(0,10).replace(/-/g,"");
 
 	let encoded_url = "https%3A%2F%2Fwww.ofca.gov.hk%2Ffilemanager%2Fofca%2Fcommon%2Fdatagovhk%2Ftel_no_en_tc.csv";
 	let file_version_url = "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url="+encoded_url+"&start="+date_str+"&end="+date_str;
