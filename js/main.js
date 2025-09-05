@@ -107,17 +107,21 @@ $(document).ready(function () {
         $("#input-box").fadeIn()
     }, 500);
     
-	var date = new Date();
-	date.setDate(date.getDate() - 1);
-	let date_str = date.toISOString().slice(0,10).replace(/-/g,"");
+	var end_date = new Date();
+	end_date.setDate(end_date.getDate() - 1);
+	var start_date = new Date();
+	start_date.setFullYear(start_date.getFullYear() - 1);
+	let start_date_str = start_date.toISOString().slice(0,10).replace(/-/g,"");
+	let end_date_str = end_date.toISOString().slice(0,10).replace(/-/g,"");
 
 	let encoded_url = "https%3A%2F%2Fwww.ofca.gov.hk%2Ffilemanager%2Fofca%2Fcommon%2Fdatagovhk%2Ftel_no_en_tc.csv";
-	let file_version_url = "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url="+encoded_url+"&start="+date_str+"&end="+date_str;
+	let file_version_url = "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url="+encoded_url+"&start="+start_date_str+"&end="+end_date_str;
 	fetch(file_version_url).then(function(resp) {
 		return resp.json();
 	}).then(function(d) {
-	    const archive_url = "https://api.data.gov.hk/v1/historical-archive/get-file?url="+encoded_url+"&time="+d.timestamps[0];
-	    return fetch(archive_url)
+		let last_time = d.timestamps[d.timestamps.length - 1];
+		const archive_url = "https://api.data.gov.hk/v1/historical-archive/get-file?url="+encoded_url+"&time="+last_time;
+		return fetch(archive_url)
 	}).then(function(resp) {
 		return resp.text();
 	}).then(function(t) {
