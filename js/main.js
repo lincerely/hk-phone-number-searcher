@@ -7,7 +7,7 @@ function normalize(d) {
 }
 
 function parse_phonebook(t) {
-    var phonebook = [];
+	var phonebook = [];
 
 	var lines = t.split("\r\n");
 	for (i = 1; i < lines.length; i++) {
@@ -60,24 +60,24 @@ console.log("lang = " + lang);
 
 if (lang === "en") {
 
-    //-- Eng Alternative --
-    titleText = "HK Phone Searcher";
-    subTitleText = "Retreive carrier information and type of<br> Any Hong Kong Phone Number";
+	//-- Eng Alternative --
+	titleText = "HK Phone Searcher";
+	subTitleText = "Retreive carrier information and type of<br> Any Hong Kong Phone Number";
 
-    errorText = "Please enter a valid phone number.";
-    noResultText = "No result found.";
-    noDataText = "Sorry, I can't get any data from the server.<br>Please contact the IT guy to fix this :/";
+	errorText = "Please enter a valid phone number.";
+	noResultText = "No result found.";
+	noDataText = "Sorry, I can't get any data from the server.<br>Please contact the IT guy to fix this :/";
 
-    detailText = "Source and Last update date";
-    changeLangText = "中文呀";
+	detailText = "Source and Last update date";
+	changeLangText = "中文呀";
 
-    typeText = "Category";
-    subTypeText = "Sub-category";
-    companyText = "Allocated / Assigned to (Company / Entity)";
-    remarkText = "Remarks";
-    specialText = "Special Number?";
+	typeText = "Category";
+	subTypeText = "Sub-category";
+	companyText = "Allocated / Assigned to (Company / Entity)";
+	remarkText = "Remarks";
+	specialText = "Special Number?";
 
-    srcText = "More Detail...";
+	srcText = "More Detail...";
 }
 
 var inputfield = null;
@@ -87,26 +87,26 @@ var errorfield = null;
 
 $(document).ready(function () {
 
-    inputfield = $("input[name='input']");
-    form = $('form');
-    resultfield = $('#result');
-    errorfield = $('#error-msg');
+	inputfield = $("input[name='input']");
+	form = $('form');
+	resultfield = $('#result');
+	errorfield = $('#error-msg');
 
-    $('h1').text(titleText);
-    $('#subTitle').html(subTitleText + "<br>");
-    $('#detail').text(detailText);
-    $('#changeLang').text(changeLangText);
+	$('h1').text(titleText);
+	$('#subTitle').html(subTitleText + "<br>");
+	$('#detail').text(detailText);
+	$('#changeLang').text(changeLangText);
 
-    errorfield.hide();
-    resultfield.hide();
+	errorfield.hide();
+	resultfield.hide();
 
-    if (lang === "en")
-        $('#changeLang').attr("href", "?lang=zh");
+	if (lang === "en")
+		$('#changeLang').attr("href", "?lang=zh");
 
-    setTimeout(function () {
-        $("#input-box").fadeIn()
-    }, 500);
-    
+	setTimeout(function () {
+		$("#input-box").fadeIn()
+	}, 500);
+	
 	var end_date = new Date();
 	end_date.setDate(end_date.getDate() - 1);
 	var start_date = new Date();
@@ -125,116 +125,116 @@ $(document).ready(function () {
 	}).then(function(resp) {
 		return resp.text();
 	}).then(function(t) {
-	    phonebook = parse_phonebook(t);
-	    console.log("phonebook loaded.");
-        console.log(phonebook);
+		phonebook = parse_phonebook(t);
+		console.log("phonebook loaded.");
+		console.log(phonebook);
 
-        //support 'GET' uri inputs
-        if (input !== null) {
-            $("input").val(input);
-            check(input);
-    	}
-    }).catch(function(err) {
+		//support 'GET' uri inputs
+		if (input !== null) {
+			$("input").val(input);
+			check(input);
+		}
+	}).catch(function(err) {
 		console.log("failed to fetch data: " + err);
 		
 		errorfield.html(noDataText);
-        errorfield.fadeIn();
-        inputfield.prop('disabled', true);
+		errorfield.fadeIn();
+		inputfield.prop('disabled', true);
 
-        form.find(".ripple-this").removeClass('ripple-this');
-        form.find("button").prop('disabled', true);
+		form.find(".ripple-this").removeClass('ripple-this');
+		form.find("button").prop('disabled', true);
 	});
 
-    form.on('submit', function (e) {
-        resultfield.hide();
-        input = inputfield.val();
-        //resultfield.focus();
-        check(input);
-        e.preventDefault();
-    });
+	form.on('submit', function (e) {
+		resultfield.hide();
+		input = inputfield.val();
+		//resultfield.focus();
+		check(input);
+		e.preventDefault();
+	});
 
-    $.ripple(".ripple-this",{
-        debug: false,
-        multi: true,
-        opacity: 0.2
-    })
+	$.ripple(".ripple-this",{
+		debug: false,
+		multi: true,
+		opacity: 0.2
+	})
 
 
 });
 
 function check(input) {
-    input = input.replace('-', '');
-    if (isNaN(input) || input === '') {
-        //invalidate input
-        errorfield.html(errorText).fadeIn();
-    } else {
-        errorfield.hide();
-        getResult(input);
-    }
+	input = input.replace('-', '');
+	if (isNaN(input) || input === '') {
+		//invalidate input
+		errorfield.html(errorText).fadeIn();
+	} else {
+		errorfield.hide();
+		getResult(input);
+	}
 }
 
 
 function getResult(input) {
-    var result = noResultText;
-    //go through each row in phone book
-    $.each(phonebook, function (index, row) {
+	var result = noResultText;
+	//go through each row in phone book
+	$.each(phonebook, function (index, row) {
 
-        var isEqual = false;
-        if (row.length === null || row.length === "Variable") {
-            isEqual = true;
-        } else if (isNaN(row.length)) {
+		var isEqual = false;
+		if (row.length === null || row.length === "Variable") {
+			isEqual = true;
+		} else if (isNaN(row.length)) {
 
-            if (row.length.includes('-')) {
-                //length value is a range
-                var range = row.length.split('-');
-                isEqual = (input.length >= parseInt(range[0]) && input.length <= parseInt(range[1]));
-            } else {
-                //length value includes a expression
-                isEqual = eval(String(input.length) + row.length);
-            }
+			if (row.length.includes('-')) {
+				//length value is a range
+				var range = row.length.split('-');
+				isEqual = (input.length >= parseInt(range[0]) && input.length <= parseInt(range[1]));
+			} else {
+				//length value includes a expression
+				isEqual = eval(String(input.length) + row.length);
+			}
 
-        } else {
-            isEqual = row.length == input.length;
-        }
+		} else {
+			isEqual = row.length == input.length;
+		}
 
-        if (isEqual) {
-            if (row.start <= input.substring(0, String(row.start).length) && row.end >= input.substring(0, String(row.end).length)) {
-                result = ""
-                result += "<p>" + typeText + "<br><b>" + row.type + "</b></p>";
-                if (row.subtype !== null)
-                    if (row.subtype.includes('**'))
-                        result += "<p>" + subTypeText + "<br><b><i>" + row.subtype + "</i></b></p>";
-                    else
-                        result += "<p>" + subTypeText + "<br><b>" + row.subtype + "</b></p>";
+		if (isEqual) {
+			if (row.start <= input.substring(0, String(row.start).length) && row.end >= input.substring(0, String(row.end).length)) {
+				result = ""
+				result += "<p>" + typeText + "<br><b>" + row.type + "</b></p>";
+				if (row.subtype !== null)
+					if (row.subtype.includes('**'))
+						result += "<p>" + subTypeText + "<br><b><i>" + row.subtype + "</i></b></p>";
+					else
+						result += "<p>" + subTypeText + "<br><b>" + row.subtype + "</b></p>";
 
-                if (row.company !== null)
-                    if (row.company.includes('**'))
-                        result += "<p>" + companyText + "<br><b><i>" + row.company + "</i></b></p>";
-                    else
-                        result += "<p>" + companyText + "<br><b>" + row.company + "</b></p>";
+				if (row.company !== null)
+					if (row.company.includes('**'))
+						result += "<p>" + companyText + "<br><b><i>" + row.company + "</i></b></p>";
+					else
+						result += "<p>" + companyText + "<br><b>" + row.company + "</b></p>";
 
-                if (row['special#'] !== null)
-                    result += "<p>" + specialText + "<br><b class='material-icons'>done</b></p>";
-                else
-                    result += "<p>" + specialText + "<br><b class='material-icons'>clear</b></p>";
+				if (row['special#'] !== null)
+					result += "<p>" + specialText + "<br><b class='material-icons'>done</b></p>";
+				else
+					result += "<p>" + specialText + "<br><b class='material-icons'>clear</b></p>";
 
-                if (row.remark !== null)
-                    result += "<p>" + remarkText + "<br><b>" + row.remark + "</b></p>";
+				if (row.remark !== null)
+					result += "<p>" + remarkText + "<br><b>" + row.remark + "</b></p>";
 
-                result += "<a style='padding-left: 0px' href='http://www.ofca.gov.hk/filemanager/ofca/tc/content_311/no_plan.pdf' alt='Numbering Plan PDF'><small>" + srcText + "</small></a>";
+				result += "<a style='padding-left: 0px' href='http://www.ofca.gov.hk/filemanager/ofca/tc/content_311/no_plan.pdf' alt='Numbering Plan PDF'><small>" + srcText + "</small></a>";
 
-                console.log(row);
-                return false;
+				console.log(row);
+				return false;
 
-            }
-        }
-    });
-    resultfield.html(result).slideDown();
+			}
+		}
+	});
+	resultfield.html(result).slideDown();
 
-    //scroll to result automatically
-    // ref from: https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
-    $('html, body').animate({
-        scrollTop: resultfield.offset().top
-    }, 2000);
+	//scroll to result automatically
+	// ref from: https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
+	$('html, body').animate({
+		scrollTop: resultfield.offset().top
+	}, 2000);
 
 }
